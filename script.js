@@ -20,7 +20,7 @@ function checkNumber() {
   if (nmbr === "") {
     alert("Please provide a phone number");
   } else if (nmbr.match(phoneNumberRegex) !== null && nmbr.match(phoneNumberRegex)[0] === nmbr) {  
-    results.innerHTML += `<p class="val">Valid US number: ${nmbr}</p>`;;
+    results.innerHTML += `<p class="val">Valid US number: ${nmbr}</p>`;
   } else {
     results.innerHTML += `<p class ="inv">Invalid US number: ${nmbr}</p>`;
   }
